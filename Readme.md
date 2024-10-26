@@ -1,4 +1,4 @@
-# Travel Manager
+# Travel Manager 🧳✈️
 
 A comprehensive **Travel Management System** designed to simplify travel planning, bookings, and expense tracking. Built with Java and MySQL, this application features an intuitive GUI and secure database connectivity.
 
