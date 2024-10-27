@@ -1,4 +1,4 @@
-<h1 align="center" style="color: #f1f1f1;">Travel Manager<img width="40" src="images/plane.gif"></h1>
+<h1 align="center">Travel Manager <img width="40" src="images/plane.gif"></h1>
 
 A comprehensive **Travel Management System** designed to simplify travel planning, bookings, and expense tracking. Built with Java and MySQL, this application features an intuitive GUI and secure database connectivity.
 
