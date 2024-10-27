@@ -2,7 +2,7 @@
 
 A comprehensive **Travel Management System** designed to simplify travel planning, bookings, and expense tracking. Built with Java and MySQL, this application features an intuitive GUI and secure database connectivity.
 
-## Table of Contents
+## 📑 Table of Contents
 
 - Features
 - Technology Stack
@@ -10,7 +10,7 @@ A comprehensive **Travel Management System** designed to simplify travel plannin
 - Usage Guide
 - MySQL Database 
 
-## Features
+## ✨ Features
 
 - User Registration/Login - Secure and personalized profiles
 - Booking Management - Manage travel bookings
@@ -18,14 +18,14 @@ A comprehensive **Travel Management System** designed to simplify travel plannin
 - Data Persistence - SQL-based storage for secure data management
 - Intuitive GUI - Java Swing for a user-friendly interface
 
-## Technology Stack
+## 🛠️ Technology Stack
 
 - Language: Java
 - GUI: Java Swing
 - Database: MySQL
 - Libraries: JDBC for database connection
 
-## Setup & Installation
+## ⚙️ Setup & Installation
 
 ### Prerequisites
 
@@ -41,15 +41,15 @@ git clone https://github.com/KeshavMaheshwari21/Travel-Manager.git
 cd Travel-Manager
 ```
 
-## Usage Guide
+## 📖 Usage Guide
 
-1. **User Authentication** - New users sign up; existing users log in.
-2. **Trip Management** - Add trip details (destination, dates, budget).
-3. **Booking Management** - Manage accommodations and transport bookings.
-4. **Expense Tracking** - Update budget and log expenses.
-5. **Generate Itinerary** - Automatically get a full trip itinerary.
+1. **User Authentication** 🔑 - New users sign up; existing users log in.
+2. **Trip Management** 🌏 - Add trip details (destination, dates, budget).
+3. **Booking Management** 🏨 - Manage accommodations and transport bookings.
+4. **Expense Tracking** 💸 - Update budget and log expenses.
+5. **Generate Itinerary** 🗺️ - Automatically get a full trip itinerary.
 
-## MySQL Database 
+## 🗄️ MySQL Database 
 
 Creating the new Database for the Project :
 ```bash
@@ -64,7 +64,7 @@ use travelmanagementsystem;
 
 ### Creating the Tables in the Database
 
-1. **Account** : The **account** table stores essential user information for the **Travel Manager** application, including login credentials and security data. It contains the following fields:
+1. 🧑‍💼 **Account Table** : The **account** table stores essential user information for the **Travel Manager** application, including login credentials and security data. It contains the following fields:
 - username: Unique identifier for each user
 - name: Full name of the user
 - password: User’s password (plain text; encryption recommended in production)
@@ -80,7 +80,7 @@ security varchar(20),
 answer varchar(20));
 ```
 
-2. **BookHotel** : The **bookhotel** table stores details related to hotel bookings in the **Travel Manager** application, including:
+2. 🏨 **BookHotel Table** : The **bookhotel** table stores details related to hotel bookings in the **Travel Manager** application, including:
 - username: Username of the person making the booking
 - name: Name of the person booking the hotel
 - persons: Number of persons included in the booking
@@ -106,7 +106,7 @@ phone varchar(15),
 price varchar(15));
 ```
 
-3. BookPackage : The **bookpackage** table stores information about travel package bookings in the **Travel Manager** application, with the following columns:
+3. 🎫 **BookPackage Table** : The **bookpackage** table stores information about travel package bookings in the **Travel Manager** application, with the following columns:
 - username: Username of the person booking the package
 - package: Name or type of travel package selected
 - persons: Number of people included in the package
@@ -126,7 +126,7 @@ phone varchar(15),
 price varchar(15));
 ```
 
-4. **Customer** : The **customer** table holds essential information about customers in the **Travel Manager** application. It includes:
+4. 🧍 **Customer Table** : The **customer** table holds essential information about customers in the **Travel Manager** application. It includes:
 - username: Unique username associated with the customer
 - id: Unique customer ID
 - number: Reference number related to the customer
@@ -150,7 +150,7 @@ phone varchar(15),
 email varchar(25));
 ```
 
-5. **Hotel** : The **hotel** table stores key information about hotels in the **Travel Manager** application. It includes:
+5. 🏩 **Hotel Table** : The **hotel** table stores key information about hotels in the **Travel Manager** application. It includes:
 - name: Name of the hotel
 - costperperson: Cost per person for staying at the hotel
 - acroom: Cost of air-conditioned rooms
