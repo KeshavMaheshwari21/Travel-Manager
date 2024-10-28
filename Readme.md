@@ -8,6 +8,7 @@ A comprehensive **Travel Management System** designed to simplify travel plannin
 - Technology Stack
 - Setup & Installation
 - Usage Guide
+- Project Structure
 - MySQL Database 
 
 ## ✨ Features
@@ -48,6 +49,18 @@ cd Travel-Manager
 3. **Booking Management** 🏨 - Manage accommodations and transport bookings.
 4. **Expense Tracking** 💸 - Update budget and log expenses.
 5. **Generate Itinerary** 🗺️ - Automatically get a full trip itinerary.
+
+## 📂 Project Structure
+
+```bash
+Travel-Manager/
+├── src/                             # Source code directory ( contains all the java files )
+├── bin/                             # Compiled .class files                         
+├── lib/                             # External libraries and dependencies
+│   └── mysql-connector.jar          # MySQL connector for database connection
+├── images/                          # Contains all the images of the projects                        
+└── Readme.md                        # Project description
+```
 
 ## 🗄️ MySQL Database 
 
