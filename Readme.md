@@ -176,3 +176,9 @@ costperperson varchar(15),
 acroom varchar(20),
 foodincluded varchar(20));
 ```
+
+## For accessing the ADMINS Dashboard 
+<br>
+Username - admin
+<br>
+Password - admin@123
